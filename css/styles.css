@@ -43,7 +43,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* LOGO */
+/* ЛОГОТИП */
 
 .logo {
   font-family: "Raleway";
@@ -78,7 +78,7 @@ body {
 }
 
 .header .current-page {
-    color: #6bafe7;
+    color: var(--accent-color);
 }
 /* ГЕРОЙ */
 
@@ -197,4 +197,42 @@ color: var(--secondary-main-color)
 .contacts:hover,
 .contacts:focus {
   color: var(--accent-color);
+}
+
+/* ПОРТФОЛИО */
+
+/* КНОПКИ ФИЛЬТРА */
+
+.filter-buttons {
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--primary-main-color);
+background-color: var(--secondary-background-color);
+}
+
+.filter-buttons:hover, .filter-buttons:focus {
+    color: var(--secondary-main-color);
+    background-color: var(--accent-color);
+}
+
+/* КАРТОЧКИ */
+
+.card-name {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+
+color: var(--primary-main-color);
+}
+
+.card-type {
+font-size: 16px;
+line-height: 1.88;
+color: var(--text-color)
 }
