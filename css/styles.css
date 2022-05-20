@@ -33,6 +33,7 @@ body {
 .buttons {
   font-family: inherit;
   cursor: pointer;
+  border: none;
 }
 
 /* HEADER */
