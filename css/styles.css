@@ -47,7 +47,7 @@ body {
 /* ЛОГОТИП */
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -80,6 +80,7 @@ body {
 
 .header .current-page {
     color: var(--accent-color);
+
 }
 /* ГЕРОЙ */
 
@@ -113,7 +114,8 @@ body {
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--secondary-main-color);
-  color: var(--accent-color);
+  color: var(--secondary-main-color);
+  background-color: #188CE8;
 }
 
 /* ПРЕИМУЩЕСТВА */
@@ -221,6 +223,9 @@ background-color: var(--secondary-background-color);
     background-color: var(--accent-color);
 }
 
+.current-button {color: var(--secondary-main-color);
+background-color: var(--accent-color);
+}
 /* КАРТОЧКИ */
 
 .card-name {
